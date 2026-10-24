@@ -9,7 +9,7 @@ export interface User {
   role: UserRole;
   passwordHash?: string;
   isEmailVerified: boolean;
-  educationLevel?: "10th" | "12th" | "college" | "working" | "exploring";
+  educationLevel?: "10th" | "12th" | "college" | "working" | "exploring" | "postgrad";
   ageBand?: "under_14" | "14_17" | "18_24" | "25_plus";
   hasParentalConsent?: boolean;
   interests?: string[];
